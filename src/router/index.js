@@ -35,3 +35,4 @@ const router = new VueRouter({
 })
 export default router
 console.log("aaa")
+console.log("bbb")
