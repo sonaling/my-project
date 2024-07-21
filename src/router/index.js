@@ -6,9 +6,9 @@ const Category = () => import('views/category/Category')
 const Cart = () => import('views/cart/Cart')
 const Profile = () => import('views/profile/Profile')
 //1.安装插件
- Vue.use(VueRouter)
- //2. 创建路由对象
- const routes =[{
+Vue.use(VueRouter)
+//2. 创建路由对象
+const routes = [{
   path: '',
   redirect: 'home'
 },
@@ -28,11 +28,11 @@ const Profile = () => import('views/profile/Profile')
   path: '/profile',
   component: Profile
 },
- ]
- const router = new VueRouter({
+]
+const router = new VueRouter({
   routes,
-  mode:history
- })
- export default router
- 
- 
+  mode: history
+})
+export default router
+
+console.log("aaa")
